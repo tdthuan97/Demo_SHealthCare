@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "450512568450",
+    "firebase_url": "https://demohealtcare.firebaseio.com",
+    "project_id": "demohealtcare",
+    "storage_bucket": "demohealtcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450512568450:android:666bf6e9b7aecf0b",
+        "android_client_info": {
+          "package_name": "vn.tase.shealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450512568450-jpbd0mb1b1bs5mhrv3u9i1ghdc1bnkot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.tase.shealthcare",
+            "certificate_hash": "b80a3acdafbe82ab76533bb022368a63a795f49e"
+          }
+        },
+        {
+          "client_id": "450512568450-v7pkv2bltjfcm6vs0oqurigpa1rduoqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.tase.shealthcare",
+            "certificate_hash": "49311d905928d5a919a6d548e8794319e7d666ee"
+          }
+        },
+        {
+          "client_id": "450512568450-tt2iec96dfu3cc79ec0s95u1f8ppk29i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCImurzRZ05DhCJhQEmHn9MCSuxJEhoE6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450512568450-tt2iec96dfu3cc79ec0s95u1f8ppk29i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

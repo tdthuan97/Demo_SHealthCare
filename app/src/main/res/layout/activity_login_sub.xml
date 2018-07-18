@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="vn.tase.shealthcare.activity.LoginSubActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:text="ĐĂNG NHẬP"
+       android:gravity="center|bottom"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/iconlogin"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btnDangNhapAPI"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:text="đăng nhập"
+        android:textColor="#ffffff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="EMAIL HOẶC SỐ ĐIỆN THOẠI"
+        android:gravity="center"
+        android:textColor="#000000" />
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bordersub"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="MẬT KHẨU"
+        android:gravity="center"
+        android:textColor="#201b1b"/>
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bordersub"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Quên mật khẩu?"
+        android:gravity="center"
+        android:textColor="#201b1b" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:text="đăng ký"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
